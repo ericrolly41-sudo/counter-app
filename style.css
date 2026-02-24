@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    color: #0c0c0c;
+}
+
+
+h1 {
+    font-size: 70px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+
+#display {
+    font-size: 200px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+button { 
+     padding: 12px 25px; 
+    font-size: 36px;
+    border-radius: 20px;
+    color: rgb(50, 22, 22);
+    cursor: pointer;
+    transition: 0.3s;
+    
+
+}
+#decrement{
+    background-color:green;
+}
+#clear{
+    background-color: blue;
+}
+#increment{
+    background-color: brown;
+}
+
+button:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
